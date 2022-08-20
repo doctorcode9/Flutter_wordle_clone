@@ -8,7 +8,7 @@ class WorldeGame {
   int letterId = 0;
   static String game_message = "";
   static String game_guess = "";
-  static List<String> word_list = ["world", "fight", "brain", "plane", "earth"];
+  static List<String> word_list = ["world", "fight", "brain", "plane", "earth","robot",""];
   static bool gameOver = false;
   //setting the game row
   static List<Letter> wordleRow = List.generate(
